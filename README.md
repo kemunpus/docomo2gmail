@@ -1,0 +1,6 @@
+# docomo2gmail
+Copy emails from docomo to gmail using imap4 protocol.
+
+Docomoのキャリアメールを維持しつつ、メインのメールアカウントをGmailに集約したくなったので作りました。
+あらかじめDocomo側にはWeb UIなどを使ってSavedという"受信フォルダ"を作っておきます。
+環境変数を設定後にこのプログラムを実行すると、Docomoの受信フォルダと送信済みフォルダのメールをGmailの受信フォルダにコピーし、Docomo側はSavedというフォルダに移動した後に削除します。
